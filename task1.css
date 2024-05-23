@@ -1,0 +1,248 @@
+#h3{
+    border: 2px solid plum;
+    background-color: plum;
+    color: white;
+    width: 80px;
+    height: 26px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 270px;
+    border-radius: 2px;
+    margin-top: 60px;
+}
+
+#head,h3{
+    text-align: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#hyphen{
+    text-align: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: rgb(220, 89, 220);
+}
+#leader,#dd{
+    border: 2px solid plum;
+    background-color: plum;
+    color: white;
+    width: 230px;
+    height: 26px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 240px;
+    border-radius: 7px;
+
+}
+#div1{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 250px;
+}
+#div2{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 155px;
+}
+
+#div3{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 100px;
+
+}
+#div4{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 155px;
+}
+#lo{
+    border-radius: 80%;
+}
+.ribbon {
+    --c: plum;
+    
+    border-image: 
+       conic-gradient(from 45deg at calc(100% - 100px),#0000 25%,var(--c) 0) 
+       fill 0//0 0 0 100;
+    padding-right: 200px;
+    line-height: 30px; /* control the height */ 
+    width: fit-content; /* you probably don't need this if your element is already shrink-to-fit*/
+  }
+  
+  @supports not (padding: 1lh) { /* in case the lh unit is not available fallback to em */
+    .ribbon {
+      border-image: 
+         conic-gradient(from 45deg at calc(100% - 1.5em) 50%,#0000 25%,var(--c) 0) 
+         fill 0//0 0 0 100vw;
+      padding-right: 2px; 
+    }
+  }
+.nam1{
+    margin-left: 260px;
+    margin-top: -15px;
+}
+#nam12{
+    color: rgb(176, 13, 176);
+}
+
+.nam2{
+    margin-left: 410px;
+    margin-top: -55px;
+}
+  #nam21{
+    color:  rgb(176, 13, 176);
+    margin-top: -13.5px;
+    margin-left: 390px;
+}
+#nam3{
+    margin-left: 170px;
+    margin-top: -40px;
+}
+#nam4{
+    margin-left: 300px;
+    margin-top: -55px;
+}
+#nam5{
+    margin-left: 460px;
+    margin-top: -60px;
+}
+#nam31{
+    margin-left: 175px;
+    margin-top: -10px;
+    color: rgb(176, 13, 176);
+}
+#nam41{
+    color: rgb(176, 13, 176);
+    margin-left:320px ;
+    margin-top: -7px;
+
+}
+#nam51{
+    margin-left: 420px;
+    color: rgb(176, 13, 176);
+    margin-top: -5px;
+}
+#nam6{
+    margin-left: 130px;
+    margin-top: -30px;
+}
+#nam61{
+    margin-left: 100px;
+    margin-top: -10px;
+    color: rgb(176, 13, 176);
+}
+#nam7{
+    margin-left: 260px;
+    margin-top: -60px;
+}
+#nam71{
+    margin-left: 220px;
+    color: rgb(176, 13, 176);
+    margin-top: -7px;
+}
+#nam8{
+    margin-left: 390px;
+    margin-top: -60px;
+}
+#nam81{
+    margin-left: 355px;
+    margin-top: -8px;
+    color: rgb(176, 13, 176);
+}
+#nam9{
+    margin-left: 510px;
+    margin-top: -60px;
+}
+#nam91{
+    margin-left: 500px;
+    color: rgb(176, 13, 176);
+    margin-top: -7px;
+}
+#nam32{
+    margin-left: 145px;
+    margin-top: -10px;
+    color: rgb(176, 13, 176);
+}
+#nam42{
+    color: rgb(176, 13, 176);
+    margin-left:290px ;
+    margin-top: -10px;
+
+}
+#nam52{
+    margin-left: 440px;
+    color: rgb(176, 13, 176);
+    margin-top: -9px;
+}
+#nam13{
+    margin-left: 130px;
+    margin-top: -30px;
+}
+#nam131{
+    margin-left: 110px;
+    margin-top: -10px;
+    color: rgb(176, 13, 176);
+}
+#nam14{
+    margin-left: 260px;
+    margin-top: -60px;
+}
+#nam141{
+    margin-left: 240px;
+    color: rgb(176, 13, 176);
+    margin-top: -7px;
+}
+#nam15{
+    margin-left: 380px;
+    margin-top: -60px;
+}
+#nam151{
+    margin-left: 375px;
+    margin-top: -8px;
+    color: rgb(176, 13, 176);
+}
+#nam16{
+    margin-left: 510px;
+    margin-top: -60px;
+}
+#nam161{
+    margin-left: 500px;
+    color: rgb(176, 13, 176);
+    margin-top: -8px;
+}
+
+#nam17{
+    margin-left: 170px;
+    margin-top: 10px;
+}
+#nam18{
+    margin-left: 300px;
+    margin-top: -60px;
+}
+#nam19{
+    margin-left: 460px;
+    margin-top: -55px;
+}
+#nam171{
+    margin-left: 135px;
+    margin-top: -10px;
+    color: rgb(176, 13, 176);
+}
+#nam181{
+    color: rgb(176, 13, 176);
+    margin-left:290px ;
+    margin-top: -8px;
+
+}
+#nam191{
+    margin-left: 440px;
+    color: rgb(176, 13, 176);
+    margin-top: -9px;
+}
