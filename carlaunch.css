@@ -1,0 +1,159 @@
+#back{
+    
+    
+    background-color: rgb(32, 28, 28);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    height: 2000px;
+    width: 1200px;
+}
+#parent{
+    border: 1px solid black;
+    height: 391px;
+    width: 692px;
+    margin-left: 280px;
+    margin-top: 38px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/19/11/26/automotive-1838744_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 15px 15px 5px black;
+}
+
+#navi{
+    margin-top: 30px;
+    
+}
+#nav{
+    display: block;
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    margin-right: 15px;
+}
+a:hover{
+    background-color: rgb(56, 52, 52);
+    border-radius: 2px;
+}
+#sib{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    margin-left: 260px;
+}
+
+
+
+#redbmw{
+    border: 1px solid black;
+    height: 500px;
+    width: 900px;
+    margin-left: 170px;
+    background-image: url(../images/redbmw.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#ipar{
+    display: flex;
+    gap: 40px;
+}
+#dash{
+    border: 1px solid black;
+    height: 200px;
+    width: 500px;
+    margin-left: 80px; 
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/05/21/22/bmw-708605_640.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+
+}
+#DES{
+
+    height: 80px;
+    width: 200px;
+    overflow: hidden;
+    padding: 5px;
+    position: relative;
+    color: black;
+    margin-left: 200px;
+    margin-top: 3px;
+    font-family: sans-serif;
+    
+}
+
+#DES {
+    position: relative;
+}
+
+#DES::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2); /* Adjust the color and opacity as needed */
+    backdrop-filter: blur(-100px); /* Adjust the blur radius as needed */
+    z-index: 1; /* Ensure the overlay is behind the text */
+} 
+
+
+
+#bluecar{
+    border: 1px solid black;
+    height: 200px;
+    width: 500px;
+    background-image: url(../images/dashboard_files/car-dashboard-2667434_640.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    margin-left: 290px;
+
+}
+
+#foggy{
+    border: 1px solid black;
+    height: 500px;
+    width: 600px;
+    background-image: url(../images/foggybgm.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 300px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 5px black;
+}
+
+
+#info{
+    
+   color: white;
+    text-align: center;
+    margin-left: 100px;
+    font-family: sans-serif;
+    
+}
+#line{
+    border: 3px solid white;
+    width: 100px;
+    margin-left: 500px;
+}
+#logo{
+    background-image: url(../images/bmw.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    width: 100px;
+    height: 100px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
